@@ -491,10 +491,500 @@
 // }
 
 
-.........using Array..............
-let firstCard=10
-let secondCard= 5
-let cards = [firstCard, secondCard]  //array - ordered list of items
+// .........using Array..............
+
+// let firstCard=10
+// let secondCard= 5
+// let cards = [firstCard, secondCard]  //array - ordered list of items
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+// // Create a new function called startGame() that calls renderGame()
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+
+//     // render out firstCard and secondCard
+
+//     cardsEl.textContent="Cards: "+ cards[0] + " " + cards[1]
+//     // render out ALL the cards we have
+
+//     sumEl.textContent="Sum: " + sum
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     console.log("Drawing  a new card from the Deck")
+//     let card = 6
+//     sum +=  card
+//     startGame()
+
+// }
+
+
+// .......creating cards using arrays......
+
+// let firstCard=10
+// let secondCard= 5
+
+// // 1.create a new array - cards - that contains firstcard and secondcard
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+// // 2.refer to the cards array when rendering out the cards
+//     cardsEl.textContent="Cards: "+ cards[0] + " " + cards[1]
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     console.log("Drawing  a new card from the Deck")
+//     let card = 6
+//     sum +=  card
+//     startGame()
+
+// }
+
+// .............push a new card to array................
+
+// let firstCard=10
+// let secondCard= 5
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+//     cardsEl.textContent="Cards: "+ cards[0] + " " + cards[1]
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     // console.log("Drawing  a new card from the Deck")
+//     let card = 6
+//     sum +=  card
+//     // push the card to the cards array
+//     cards.push(card)
+//     console.log(cards)
+//     startGame()
+
+// }
+
+
+// ..............use a loop to render cards.........
+
+
+// let firstCard=10
+// let secondCard= 5
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+//     cardsEl.textContent="Cards: "
+
+//     // create a for loop that renders out all the cards instead of just two
+// for ( let i = 0; i < cards.length; i ++){
+//     cardsEl.textContent += cards[i] + " "
+// }
+
+
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     // console.log("Drawing  a new card from the Deck")
+//     let card = 6
+//     sum +=  card
+//     // push the card to the cards array
+//     cards.push(card)
+//     console.log(cards)
+//     startGame()
+
+// }
+
+
+// .........getRandomCard()................
+
+// let firstCard = getRandomCard()
+// let secondCard= getRandomCard()
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+
+// // 1. create a fn, getRandomCard(), that always returns the number 5
+
+// function getRandomCard(){
+//     return 5
+// }
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+//     cardsEl.textContent="Cards: "
+
+//     // create a for loop that renders out all the cards instead of just two
+// for ( let i = 0; i < cards.length; i ++){
+//     cardsEl.textContent += cards[i] + " "
+// }
+
+
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     // console.log("Drawing  a new card from the Deck")
+//     let card = getRandomCard()
+//     sum +=  card
+//     // push the card to the cards array
+//     cards.push(card)
+//     console.log(cards)
+//     startGame()
+// }
+
+
+// ...........completing our dice fn...............
+
+
+// let firstCard = getRandomCard()
+// let secondCard= getRandomCard()
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+
+// // make this  fn return a random number between 1 and 3
+// function getRandomCard(){
+// //    return Math.random() *13    //0.000-12.9999
+// //    return Math.floor (Math.random() * 13)    // 0 - 12
+//    return Math.floor (Math.random() * 13) + 1   // 1-13
+// }
+// console.log(randomNumber)
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+//     cardsEl.textContent="Cards: "
+
+//     // create a for loop that renders out all the cards instead of just two
+// for ( let i = 0; i < cards.length; i ++){
+//     cardsEl.textContent += cards[i] + " "
+// }
+
+
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     // console.log("Drawing  a new card from the Deck")
+//     let card = getRandomCard()
+//     sum +=  card
+//     // push the card to the cards array
+//     cards.push(card)
+//     console.log(cards)
+//     startGame()
+// }
+
+// ............if and randomcard..................................................................
+
+// let firstCard = getRandomCard()
+// let secondCard= getRandomCard()
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+
+// // make this  fn return a random number between 1 and 3
+// function getRandomCard(){
+//     // if 1 -> return 11
+//     // if 11 - 13 -> return 10
+
+//    let randomNumber = Math.floor (Math.random() * 13) + 1   // 1-13
+//    if (randomNumber > 10){
+//     return 10
+//    }
+//    else if (randomNumber === 1){
+//     return 11
+//    }
+//    else {
+//     return randomNumber
+//    }
+// }
+// console.log(randomNumber)
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+//     cardsEl.textContent="Cards: "
+
+//     // create a for loop that renders out all the cards instead of just two
+// for ( let i = 0; i < cards.length; i ++){
+//     cardsEl.textContent += cards[i] + " "
+// }
+
+
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     // console.log("Drawing  a new card from the Deck")
+//     let card = getRandomCard()
+//     sum +=  card
+//     // push the card to the cards array
+//     cards.push(card)
+//     console.log(cards)
+//     startGame()
+// }
+
+//......only trigger newCard() if you're allowed to,.......
+
+// let firstCard = getRandomCard()
+// let secondCard= getRandomCard()
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+
+// // make this  fn return a random number between 1 and 3
+// function getRandomCard(){
+//     // if 1 -> return 11
+//     // if 11 - 13 -> return 10
+
+//    let randomNumber = Math.floor (Math.random() * 13) + 1   // 1-13
+//    if (randomNumber > 10){
+//     return 10
+//    }
+//    else if (randomNumber === 1){
+//     return 11
+//    }
+//    else {
+//     return randomNumber
+//    }
+// }
+// console.log(randomNumber)
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+//     cardsEl.textContent="Cards: "
+
+//     // create a for loop that renders out all the cards instead of just two
+// for ( let i = 0; i < cards.length; i ++){
+//     cardsEl.textContent += cards[i] + " "
+// }
+
+
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     //only allow the player to get a new card if she is alive and doesnot have a BlackJack
+
+// if (isAlive === true && hasBlackJack === false){
+//     let card = getRandomCard()
+//     sum +=  card
+//     cards.push(card)
+//     // console.log(cards)
+//     startGame()
+// }
+// }
+
+// ..........................object sneak peek...................
+
+
+//2.create the player object.Give it two keys , name,and chips,
+let firstCard = getRandomCard()
+let secondCard= getRandomCard()
+let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard 
 let hasBlackJack = false
 let isAlive = true
@@ -504,20 +994,49 @@ let sumEl = document.getElementById("sum-el")
 //(or) let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
 
-// Create a new function called startGame() that calls renderGame()
+let player = {
+    name : "Me",
+    chips: 145
+}
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $ " + player.chips
+
+
+// make this  fn return a random number between 1 and 3
+function getRandomCard(){
+    // if 1 -> return 11
+    // if 11 - 13 -> return 10
+
+   let randomNumber = Math.floor (Math.random() * 13) + 1   // 1-13
+   if (randomNumber > 10){
+    return 10
+   }
+   else if (randomNumber === 1){
+    return 11
+   }
+   else {
+    return randomNumber
+   }
+}
+console.log(randomNumber)
+
 function startGame(){
     renderGame()
 }
 function renderGame(){
+    cardsEl.textContent="Cards: "
 
-    // render out firstCard and secondCard
+    // create a for loop that renders out all the cards instead of just two
+for ( let i = 0; i < cards.length; i ++){
+    cardsEl.textContent += cards[i] + " "
+}
 
-    cardsEl.textContent="Cards: "+ cards[0] + " " + cards[1]
-    // render out ALL the cards we have
 
     sumEl.textContent="Sum: " + sum
+
 if (sum <= 20){
-    // console.log("Do you want to draw a new card?")
+    // console.log("Do you want to draw a new card?")(or)
     message = "Do you want to draw a new card?"
 }
 else if(sum===21){
@@ -534,22 +1053,20 @@ messageEl.textContent = message
 }
 
 function newCard(){
-    console.log("Drawing  a new card from the Deck")
-    let card = 6
-    sum +=  card
-    startGame()
+    //only allow the player to get a new card if she is alive and doesnot have a BlackJack
 
+if (isAlive === true && hasBlackJack === false){
+    let card = getRandomCard()
+    sum +=  card
+    cards.push(card)
+    // console.log(cards)
+    startGame()
+}
 }
 
 
 
 
 
-
-
-
-// 
-// 
-// 
-// 
-// 
+//                                                                                                                                                                                                                                                                                                                                                                                                                            
+//
