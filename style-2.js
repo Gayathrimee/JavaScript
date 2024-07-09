@@ -981,13 +981,99 @@
 // ..........................object sneak peek...................
 
 
-//2.create the player object.Give it two keys , name,and chips,
-let firstCard = getRandomCard()
-let secondCard= getRandomCard()
-let cards = [firstCard, secondCard]
-let sum = firstCard + secondCard 
+// //2.create the player object.Give it two keys , name,and chips,
+// let firstCard = getRandomCard()
+// let secondCard= getRandomCard()
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard 
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// //(or) let sumEl = document.querySelector("#sum-el")
+// let cardsEl = document.getElementById("cards-el")
+
+// let player = {
+//     name : "Me",
+//     chips: 145
+// }
+
+// let playerEl = document.getElementById("player-el")
+// playerEl.textContent = player.name + ": $ " + player.chips
+
+
+// // make this  fn return a random number between 1 and 3
+// function getRandomCard(){
+//     // if 1 -> return 11
+//     // if 11 - 13 -> return 10
+
+//    let randomNumber = Math.floor (Math.random() * 13) + 1   // 1-13
+//    if (randomNumber > 10){
+//     return 10
+//    }
+//    else if (randomNumber === 1){
+//     return 11
+//    }
+//    else {
+//     return randomNumber
+//    }
+// }
+// console.log(randomNumber)
+
+// function startGame(){
+//     renderGame()
+// }
+// function renderGame(){
+//     cardsEl.textContent="Cards: "
+
+//     // create a for loop that renders out all the cards instead of just two
+// for ( let i = 0; i < cards.length; i ++){
+//     cardsEl.textContent += cards[i] + " "
+// }
+
+
+//     sumEl.textContent="Sum: " + sum
+
+// if (sum <= 20){
+//     // console.log("Do you want to draw a new card?")(or)
+//     message = "Do you want to draw a new card?"
+// }
+// else if(sum===21){
+//     // console.log("Wohooo! You've got a Blackjack!")
+//     message = "Wohooo! You've got a Blackjack!"
+//     hasBlackJack=true
+// }
+// else{
+//     // console.log("You're out of the game!")
+//     message = "You're out of the game!"
+//     isAlive= false
+// }
+// messageEl.textContent = message
+// }
+
+// function newCard(){
+//     //only allow the player to get a new card if she is alive and doesnot have a BlackJack
+
+// if (isAlive === true && hasBlackJack === false){
+//     let card = getRandomCard()
+//     sum +=  card
+//     cards.push(card)
+//     // console.log(cards)
+//     startGame()
+// }
+// }
+
+
+
+// .................only trigger newcard() if you're allowed to...........
+
+// let firstCard = getRandomCard()
+// let secondCard= getRandomCard()
+let cards = []
+let sum = 0
 let hasBlackJack = false
-let isAlive = true
+let isAlive = false
 let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
@@ -1063,10 +1149,9 @@ if (isAlive === true && hasBlackJack === false){
     startGame()
 }
 }
+//...........you build your very first JS game....congrats bro!..........  
 
-
-
-
-
-//                                                                                                                                                                                                                                                                                                                                                                                                                            
+//                  
+//                                                                                                                                                                                                                                                                                                                                                                                                        
 //
+// 

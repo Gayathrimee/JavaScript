@@ -141,6 +141,7 @@
 
 
 // ............returning values...............
+
 // let player1Time = 102
 // let player2Time = 107 
 
@@ -311,17 +312,21 @@
 //It should contain at least one boolean, one string, one number, and one array 
 // Log out at least two of the keys using the dot notation
 
-let castle = {
-    title : "airbnb castle",
-    rooms : 16,
-    isFree : false,
-    tags : ["bathroom","kitchen"]
-}
+// let castle = {
+//     title : "airbnb castle",
+//     rooms : 16,
+//     isFree : false,
+//     tags : ["bathroom","kitchen"]
+// }
 
-console.log(castle.title)
-console.log(castle.rooms)
+// console.log(castle.title)
+// console.log(castle.rooms)
 
-//                                                                                                                                                                                                                                                                                                                       
+
+
+
+
 // 
 // 
+// gbbgdfdgdfsffgfsgfgfgfgfgfgff
 // 

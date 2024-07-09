@@ -1,0 +1,42 @@
+
+/* div{
+    width:200px;
+    height:20px;
+    border-radius: 5px;
+    text-align:center ;
+    align-items: center;
+    padding: 10px;
+    color: #aa17aa;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#apple-shelf{
+    background-color:orangered;
+}
+#orange-shelf{
+    background-color: orange;
+    margin-top: 20px;
+}
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+} */
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box{
+    cursor: pointer;
+    background: lightseagreen;
+    padding: 40px;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
